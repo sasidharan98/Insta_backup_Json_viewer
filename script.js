@@ -22,7 +22,7 @@ fetch('./user_data.json')
             document.createTextNode(' ' + data.messages[i].content)
           );
           var time1 = document.createElement('h1');
-          var date = new Date(data.messages[i].timestamp_ms);
+          var Date1 = new Date(data.messages[i].timestamp_ms);
           var options = {
             weekday: 'long',
             year: 'numeric',
@@ -33,7 +33,7 @@ fetch('./user_data.json')
             second: '2-digit',
             hour12: false
           };
-          var prnDt = ' ' + new Date().toLocaleTimeString('en-us', options);
+          var prnDt = ' ' + Date1.toLocaleTimeString('en-us', options);
           // var full_date = (day1 +" "+ month +" "+ day +" "+ year +" "+ hour +" "+ min + " "+ sec)
           time1.appendChild(document.createTextNode(' ' + prnDt));
           tr.appendChild(time1);
@@ -73,7 +73,7 @@ fetch('./user_data.json')
           profile.setAttribute('id', 'img2');
           tr.appendChild(profile);
           var time1 = document.createElement('h1');
-          var date = new Date(data.messages[i].timestamp_ms);
+          var Date2 = new Date(data.messages[i].timestamp_ms);
           // var day = date.getDate();
           // var month = date.getMonth();
           // var year = date.getFullYear();
@@ -91,7 +91,7 @@ fetch('./user_data.json')
             second: '2-digit',
             hour12: false
           };
-          var prnDt = ' ' + new Date().toLocaleTimeString('en-us', options);
+          var prnDt = ' ' + Date2.toLocaleTimeString('en-us', options);
           // var full_date = (day1 +" "+ month +" "+ day +" "+ year +" "+ hour +" "+ min + " "+ sec)
           time1.appendChild(document.createTextNode(' ' + prnDt));
           tr.appendChild(time1);
