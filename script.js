@@ -49,8 +49,8 @@ fetch('./user_data.json')
           // var element = document.getElementById("send");
           // element.appendChild(para);
           // element.appendChild(line_br);
-        } else if (data.messages[i].hasOwnProperty('photos')) {
-          console.log(data.messages[i].photos[0].uri);
+//         } else if (data.messages[i].hasOwnProperty('photos')) {
+//           console.log(data.messages[i].photos[0].uri);
         }
       }
       if (data.messages[i].sender_name == 'Other User') {
@@ -95,7 +95,6 @@ fetch('./user_data.json')
           // var full_date = (day1 +" "+ month +" "+ day +" "+ year +" "+ hour +" "+ min + " "+ sec)
           time1.appendChild(document.createTextNode(' ' + prnDt));
           tr.appendChild(time1);
-
           tableBody.appendChild(tr);
           myTableDiv.appendChild(table);
           // var para = document.createElement("p"+i);
@@ -105,8 +104,8 @@ fetch('./user_data.json')
           // var element = document.getElementById("container darker");
           // element.appendChild(para);
           // element.appendChild(line_br);
-        } else if (data.messages[i].hasOwnProperty('photos')) {
-          console.log(data.messages[i].photos[0].uri);
+//         } else if (data.messages[i].hasOwnProperty('photos')) {
+//           console.log(data.messages[i].photos[0].uri);
         }
       }
     }
