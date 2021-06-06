@@ -2,10 +2,11 @@
 html,
 body {
   background: linear-gradient(
-    120deg,
-    rgba(23, 190, 187, 1),
-    rgba(240, 166, 202, 1)
-  );
+      120deg,
+      rgba(23, 190, 187, 1),
+      rgba(240, 166, 202, 1)
+    )
+    fixed;
 }
 #new {
   border: 2px solid #dedede;
@@ -17,7 +18,8 @@ body {
   text-align: top;
   float: left;
   font-size: 20px;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 #other {
   border: 2px solid #dedede;
@@ -26,14 +28,16 @@ body {
   padding: 10px;
   margin: 10px 0;
   float: right;
-  text-align: top;
+  text-align: left;
   font-size: 20px;
-  justify-content: right;
+  margin-left: auto;
+  margin-right: auto;
 }
 #img1 {
   width: 50px;
   height: 50px;
   float: left;
+  float: top;
   margin-right: 30px;
   border-radius: 50%;
 }
@@ -41,19 +45,13 @@ body {
   width: 50px;
   height: 50px;
   float: right;
+  float: top;
   margin-left: 30px;
   border-radius: 50%;
 }
 h1 {
   font-size: 10px;
-}
-#tbody1 {
-  float: left;
-  text-align: left;
-}
-#tbody2 {
-  float: right;
-  text-align: right;
+  text-align: bottom;
 }
 #table1 {
   display: table;
@@ -70,4 +68,29 @@ h1 {
   text-indent: initial;
   border-spacing: 2px;
   border-color: grey;
+}
+
+.container {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  height: 100vh;
+  justify-content: center;
+}
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  font-size: 25px;
+}
+h2 {
+  margin-top: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+}
+h3 {
+  font-size: 25px;
+  font-style: italic;
 }
