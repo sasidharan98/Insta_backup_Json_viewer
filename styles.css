@@ -16,7 +16,7 @@ body {
   margin: 10px 0;
   text-align: top;
   float: left;
-  font-size: 30px;
+  font-size: 20px;
   justify-content: center;
 }
 #other {
@@ -27,7 +27,7 @@ body {
   margin: 10px 0;
   float: right;
   text-align: top;
-  font-size: 30px;
+  font-size: 20px;
   justify-content: right;
 }
 #img1 {
