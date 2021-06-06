@@ -83,6 +83,7 @@ p {
   margin-right: auto;
   width: 8em;
   font-size: 25px;
+  font-style: italic;
 }
 h2 {
   margin-top: 5rem;
@@ -90,7 +91,6 @@ h2 {
   margin-right: auto;
   width: 9em;
   font-size: 25px;
-  font-style:italic;
   font-style: italic;
   color: rgb(255, 1, 1);
 }
