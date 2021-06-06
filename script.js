@@ -1,7 +1,7 @@
 fetch('./user_data.json')
   .then(resp => resp.json())
   .then(function(data) {
-    for (i = 1679; i >= 0; i--) {
+    for (i = 1679; i >= 1660; i--) {
       console.log(data.messages[i]);
       // console.log(data.messages[i].content);
       if (data.messages[i].sender_name == '~$rini~') {
