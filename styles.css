@@ -85,12 +85,20 @@ p {
   font-size: 25px;
 }
 h2 {
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-left: auto;
   margin-right: auto;
   width: 8em;
+  font-size: 25px;
 }
 h3 {
   font-size: 25px;
   font-style: italic;
+}
+
+#img3 {
+  width: 200px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
