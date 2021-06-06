@@ -1,3 +1,73 @@
+/* Chat containers */
+html,
 body {
-  background: orange;
+  background: linear-gradient(
+    120deg,
+    rgba(23, 190, 187, 1),
+    rgba(240, 166, 202, 1)
+  );
+}
+#new {
+  border: 2px solid #dedede;
+  background-color: #fffffff1;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: top;
+  float: left;
+  font-size: 30px;
+  justify-content: center;
+}
+#other {
+  border: 2px solid #dedede;
+  background-color: #f5f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  float: right;
+  text-align: top;
+  font-size: 30px;
+  justify-content: right;
+}
+#img1 {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+#img2 {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+h1 {
+  font-size: 10px;
+}
+#tbody1 {
+  float: left;
+  text-align: left;
+}
+#tbody2 {
+  float: right;
+  text-align: right;
+}
+#table1 {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+#table2 {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
 }

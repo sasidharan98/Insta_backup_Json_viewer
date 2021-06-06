@@ -1,3 +1,2 @@
-# web-platform-kk3sbp
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-kk3sbp)
+Instagram Backup JSON viewer
+User can able to view their old chat (memories) by downloading their instagram data by formal request from instagram as json and parse it through this script.
