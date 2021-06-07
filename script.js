@@ -1,4 +1,4 @@
-fetch('./user_data.json')
+fetch('./message_1.json')
   .then(resp => resp.json())
   .then(function(data) {
     for (i = 6180; i >= 0; i--) {
